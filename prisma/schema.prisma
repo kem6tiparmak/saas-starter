@@ -1,0 +1,86 @@
+// B2B-SaaS Template — Datenmodell
+// Multi-Tenant: jede fachliche Entität haengt an einer Organization.
+// REGEL: jede fachliche Query MUSS ueber organizationId gescoped werden.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // Prisma v6: `url = env(...)` ist hier noch erlaubt. NICHT auf v7 anheben,
+  // ohne den Driver-Adapter-Umbau zu machen (siehe AGENTS.md).
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_DATABASE_URL")
+}
+
+// Abrechnungs-Plan einer Organization. FREE = Default nach Registrierung (kleines
+// Backstop-Limit, kein Stripe-Abo). PRO wird per Stripe-Webhook gesetzt.
+enum Plan {
+  FREE
+  PRO
+}
+
+// Rolle eines Users innerhalb einer Organization.
+enum Role {
+  OWNER
+  MEMBER
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique // oeffentliche URL-Kennung (z. B. /q/[slug])
+  createdAt DateTime @default(now())
+
+  // --- Billing (Stripe) ---
+  // Quelle der Wahrheit ist Stripe; diese Felder spiegeln den Zustand per Webhook
+  // in die DB, damit Limits/Anzeige ohne Stripe-Call funktionieren.
+  plan                 Plan    @default(FREE)
+  monthlyActionLimit   Int     @default(10) // pro Plan; FREE klein als Kostenschutz
+  stripeCustomerId     String? @unique
+  stripeSubscriptionId String? @unique
+  subscriptionStatus   String? // trialing | active | past_due | canceled ...
+
+  memberships Membership[]
+
+  @@index([stripeCustomerId])
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String?
+  passwordHash String?
+  createdAt    DateTime @default(now())
+
+  memberships Membership[]
+}
+
+// Verknuepft User <-> Organization (n:m) mit Rolle. Ein User kann mehreren Orgs
+// angehoeren; die "aktive" Org steckt in der Session (organizationId im JWT).
+model Membership {
+  id             String   @id @default(cuid())
+  userId         String
+  organizationId String
+  role           Role     @default(OWNER)
+  createdAt      DateTime @default(now())
+
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, organizationId])
+  @@index([organizationId])
+  @@index([userId])
+}
+
+// Generisches IP+Zeit-Log fuer Rate-Limiting (Login, Registrierung, oeffentliche
+// Formulare). Schuetzt vor Massen-Anfragen, die bezahlte KI-Calls ausloesen.
+model RateLimitHit {
+  id        String   @id @default(cuid())
+  ip        String
+  bucket    String   @default("default") // z. B. "login", "register", "form"
+  createdAt DateTime @default(now())
+
+  @@index([ip, bucket, createdAt])
+}
