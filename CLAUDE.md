@@ -40,6 +40,16 @@ der Idee zum lauffähigen MVP. Workflow im `SETUP.md`.
 - Stripe ist Quelle der Wahrheit fürs Abo; der Webhook spiegelt Plan/Limit/Status
   in die `Organization`. Webhook setzt absoluten Zustand (idempotent).
 
+## Obsidian
+
+Nach jeder Session mit echten Änderungen:
+- `/Users/ali-kemalaltiparmak/Documents/Obsidian Vault/Claude/ActionLog.md` — Eintrag oben einfügen: `## YYYY-MM-DD — <Titel>`
+- `/Users/ali-kemalaltiparmak/Documents/Obsidian Vault/Claude/Accomplishments.md` — bei Meilensteinen updaten
+
+WICHTIG: Immer den vollen absoluten Pfad benutzen. `~` wird von Claude-Tools nicht expandiert.
+
+---
+
 ## Lessons Learned (aus OfferFlow übernommen)
 - **Prisma 7** unterstützt `url = env(...)` im Schema nicht mehr → auf v6 gepinnt.
 - **Auth.js v5** JWT-Typaugmentation (`next-auth/jwt`) greift bei `tsc` nicht
