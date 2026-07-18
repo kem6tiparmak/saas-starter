@@ -71,3 +71,57 @@ gefunden; Word-Muster und Online-Suche nach Mustersätzen zeigen hohe Nachfrage.
 - https://www.lvr.de/media/wwwlvrde/jugend/kinderundfamilien/tageseinrichtungenfrkinder/dokumente_88/201012-dokumentation-und-dokumente-kindertagesbetreuung-lwl-lvr.pdf
 
 **Gefunden:** 2026-07-16
+
+---
+
+## Kfz-Werkstatt — Schadensbericht-/Übergabeprotokoll-Generator
+
+**Schmerz:** ~38.000 Kfz-Werkstätten erstellen Schadenberichte und Fahrzeugübergabeprotokolle manuell mit kopierten Word-Vorlagen (30–60 Min/Fall), weil marktführende Kalkulations-Tools (DAT SilverDAT3, Audatex, GT Motive) keine narrativen Berichte generieren — die Lücke zwischen Kostenkalkulation und Berichtschreibung ist bestätigt und unbesetzt.
+
+**Zielgruppe:** Inhaber-geführte Kfz-Werkstätten, KMU, 38.000 Betriebe in Deutschland.
+
+**Evidenz:**
+- https://www.kfzgewerbe.de/zdk-zum-buerokratieabbau-der-kfz-meister-wird-in-der-werkstatt-gebraucht
+- https://www.autoservicepraxis.de/nachrichten/autobranche/werkstattpraxis-aerger-im-schadenfall-2534638
+- https://www.autoservicepraxis.de/nachrichten/autobranche/schadensteuerung-papier-ist-geduldig-der-kunde-nicht-2534947
+- https://www.kfz-betrieb.vogel.de/schaeden-digital-abwickeln-a-1087391/
+- https://dgd-direkt.de/werkstatt-alltag-digitalisierung-kfz-zukunft/
+
+**Gefunden:** 2026-07-18
+
+---
+
+## Sozialarbeit/Jugendhilfe — Fallbericht-Generator (freie Träger)
+
+**Schmerz:** ~198.500 Fachkräfte bei freien Trägern (Caritas, Diakonie, AWO, private Träger) erstellen Verlaufsberichte, Sozialberichte und Hilfepläne als Abrechnungsvoraussetzung für das Jugendamt — IW Köln bestätigt: Sozialwesen führt den Anstieg der Dokumentationslast aller Branchen an. KI-Startup SoKI (gegründet 2024, 450 Nutzer) validiert Zahlungswillen, adressiert aber nur mittelgroße Träger (ab ~50 Personen).
+
+**Zielgruppe:** Kleinste freie Träger und Solo-Sozialarbeits-Büros (unter SoKI-Mindestgröße).
+
+**Caveat:** Sozialdaten (SGB VIII, DSGVO) erfordern deutsche Server-Infrastruktur.
+
+**Evidenz:**
+- https://www.iwkoeln.de/studien/andrea-hammermann-Klaus-heiner-roehl-ein-tag-pro-woche-fuer-buerokratie.html
+- https://www.ikj-online.de/ki-in-der-kinder-und-jugendhilfe/
+- https://www.caritas.de/neue-caritas/heftarchiv/jahrgang-2025/artikel/ki-veraendert-wie-soziale-arbeit-und-wohlfahrtspflege-funkti
+- https://www.vorwaerts.de/inland/sozialstaat-60-bis-80-prozent-der-arbeit-gehen-fuer-buerokratie-drauf
+- https://jugendhilfeportal.de/artikel/viele-beschaeftigte-in-der-sozialen-arbeit-vor-dem-burnout
+
+**Gefunden:** 2026-07-18
+
+---
+
+## Steuerberater — Beratungsprotokoll-Generator
+
+**Schmerz:** ~53.000 Steuerkanzleien (>50 % Einzelkanzleien) rekonstruieren nach jedem Mandantengespräch 30–60 Min lang ein revisionssicheres Beratungsprotokoll aus Gedächtnis — DATEV hat diese Lücke trotz KI-Investitionen nicht geschlossen (bestätigt durch DATEV-Community-Thread). Direkter Wettbewerber Sally.io validiert den Markt, hat DATEV-Integration.
+
+**Zielgruppe:** Inhaber von Einzelkanzleien (1–3 MA), 36.000+ in Deutschland.
+
+**Caveat:** Sally.io ist etablierter Direktwettbewerber — Differenzierung nötig (günstiger, text-only, kein Audio-Recording).
+
+**Evidenz:**
+- https://www.datev-community.de/t5/Freie-Themen/KI-Tool-f%C3%BCr-die-Protokollierung-und-Zusammenfassung-von/td-p/552103
+- https://www.sally.io/de/meeting-transkription-steuerberater
+- https://steuerboard.com/blog/steuerberatung-automatisieren
+- https://www.ki-syndikat.de/usecases/steuern/02-mandantenkommunikation/
+
+**Gefunden:** 2026-07-18
