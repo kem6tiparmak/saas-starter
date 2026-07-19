@@ -125,3 +125,33 @@ gefunden; Word-Muster und Online-Suche nach Mustersätzen zeigen hohe Nachfrage.
 - https://www.ki-syndikat.de/usecases/steuern/02-mandantenkommunikation/
 
 **Gefunden:** 2026-07-18
+
+---
+
+## Non-Profit/Bildungsträger — Sachbericht-Generator für Fördermittelgeber
+
+**Schmerz:** Fördermittelempfänger (NGOs, AZAV-Bildungsträger, Sozialunternehmen) müssen für jede Förderung einen narrativen Sachbericht (5–30 Seiten) an den Fördergeber einreichen — manuell mit Word, jeder Fördergeber hat leicht abweichende Templates, 4–10 Stunden Aufwand pro Bericht, kein KI-Tool gefunden.
+
+**Zielgruppe:** ~4.000 AZAV-zertifizierte Bildungsträger + ~10.000–15.000 fördermittelempfangende gGmbHs und professionelle Träger in Deutschland. Achtung: Kleine Hobbyvereine ohne Preisbereitschaft bewusst ausschließen.
+
+**Evidenz:**
+- https://foerdermittel-wissenswert.de/verwendungsnachweis-und-sachbericht/
+- https://bengo.engagement-global.de/leitfaden-teil-zwei-sachbericht-verwendungsnachweis.html
+- https://bundesverband.bvve.de/2025/10/30/neu-bei-action-verwendungsnachweis-bequem-per-videokonferenz/
+
+**Gefunden:** 2026-07-19
+
+---
+
+## Freiberufliche Hebammen — Wochenbettdokumentation-Assistent
+
+**Schmerz:** Freiberufliche Hebammen müssen seit dem neuen Hebammenhilfe-Vertrag (November 2025) detailliertere narrative Wochenbett- und Stillbetreuungsdokumentationen als Abrechnungsvoraussetzung erstellen; das einzige verbreitete Tool (Hebammen-AZH) deckt nur Kassenabrechnung ab, keine KI-Textgenerierung. Fast jede zweite Hebamme erwägt Berufswechsel wegen Bürokratielast.
+
+**Zielgruppe:** ~24.000 freiberufliche Hebammen in Deutschland.
+
+**Evidenz:**
+- https://hebammen-niedersachsen.de/seminare/uebersicht/dokumentation-in-der-wochenbettbetreuung0825
+- https://www.apotheken-umschau.de/gesundheitspolitik/hebammen-was-der-neue-hebammenhilfe-vertrag-fuer-schwangere-bedeutet-1323769.html
+- https://hebammen-azh.de/leistungen/hebamme/doku
+
+**Gefunden:** 2026-07-19
