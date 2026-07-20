@@ -155,3 +155,83 @@ gefunden; Word-Muster und Online-Suche nach Mustersätzen zeigen hohe Nachfrage.
 - https://hebammen-azh.de/leistungen/hebamme/doku
 
 **Gefunden:** 2026-07-19
+
+---
+
+## Energieberater iSFP — Narrativer Berichttext-Generator
+
+**Schmerz:** BAFA-gelistete Energieberater verbringen 20–25 Stunden mit dem Schreiben eines einzigen iSFP-Berichts — die Berechnungen sind durch Software gelöst, aber die individuellen Maßnahmenbeschreibungen, Priorisierungsbegründungen und mandantengerechten Zusammenfassungen sind vollständig manuell und kein KI-Tool adressiert genau diesen Narrativ-Layer.
+
+**Zielgruppe:** ~11.000 BAFA-gelistete Energieberater in Deutschland, überwiegend Solo- und Kleinstbüros; Markt wächst durch BEG-Förderbonus (80.000 iSFP H1 2024).
+
+**Evidenz:**
+- https://www.geb-info.de/forum/frage/praxis/zeitaufwand-isfp
+- https://isfp-software.de/fuer-solo-energieberater
+- https://www.future-watt.de/fachwissen/entwicklung-des-energieberatungsmarkts-boom-im-rueckblick-ernuechterung-im-ausblick
+
+**Gefunden:** 2026-07-20
+
+---
+
+## Zahnarztpraxen — HKP-Begründungstext & Behandlungsdokumentation-Generator
+
+**Schmerz:** Deutsche Zahnarztpraxen binden rechnerisch 96 Arbeitstage/Jahr in Bürokratie (offizielle KZV-Kampagnenzahl); HKP-Begründungstexte für GKV-Anträge, narrative Behandlungsdokumentation und QM-Pflichtnachweise sind vollständig manuell — kein dominierendes KI-Tool vorhanden.
+
+**Zielgruppe:** 62.874 Vertragszahnärzte in Deutschland (KZBV 2025), durchschnittlicher Praxisumsatz €677.000/Jahr — hohe Zahlungsbereitschaft für Zeitersparnis.
+
+**Evidenz:**
+- https://www.kzvnr.de/aktuelles/presse/pressemeldungen/detail/zaehne-zeigen-gegen-buerokratie
+- https://www.kzvnr.de/fileadmin/user_upload/PDF/Zahnaerzteseite/Pressemitteilungen/PM_Hintergrundinformationen_zum_Aktionstag_gegen_Buerokratie.pdf
+- https://www.dental-wirtschaft.de/rechtundsteuern/behandlungsdokumentation-das-sind-die-rechtlichen-grundlagen-fuer-den-zahnarzt
+- https://www.getnelly.de/blog/ki-dokumentation-zahnarztpraxis
+
+**Gefunden:** 2026-07-20
+
+---
+
+## Kfz-Sachverständige (Unabhängige) — Gutachten-Narrativ-Generator
+
+**Schmerz:** Unabhängige Kfz-Gutachter werden nach Schadenswert vergütet, nicht nach Zeit — jede Bürostunde beim Schreiben von Haftungstext, Schadensbeschreibung und technischer Zustandsbeurteilung ist direkter Einkommensverlust; die Kalkulations-Tools sind digital, die Narration bleibt manuell.
+
+**Zielgruppe:** ~5.000–6.000 unabhängige Kfz-Sachverständige in Deutschland; Solo-Selbstständige dominieren, hoher Kostendruck.
+
+**Caveat:** autoiXpert (Marktführer, 2.000+ Nutzer) hat bereits ein KI-Feature für Schadenbeschreibungen — Differenzierung nötig (z. B. günstiger, DAT/Audatex-Integration, kein Full-Suite-Lock-in).
+
+**Evidenz:**
+- https://wissen.autoixpert.de/hc/de/articles/360021033980-Das-bietet-moderne-KFZ-Sachverstaendigen-Software
+- https://crashify.de/welche-software-nutzen-kfz-gutachter-die-besten-programme-im-vergleich/
+- https://www.mindocu.de
+
+**Gefunden:** 2026-07-20
+
+---
+
+## Dachdecker — Abnahmeprotokoll & Aufmaß-Berichtstext-Generator
+
+**Schmerz:** Dachdecker erfassen Aufmaße auf Papier und übertragen sie manuell; Abnahmeprotokolle (VOB/B-Abnahmeklauseln, Materialnachweise, Abweichungen vom LV) werden per Word-Vorlage ausgefüllt — kein KI-Tool für diesen Narrativ-Layer existiert.
+
+**Zielgruppe:** ~7.500 Dachdeckerbetriebe in Deutschland (ZVDH), zusätzlich ~2.000–3.000 Gerüstbauer. KMU 5–20 MA, preis-sensitiv.
+
+**Evidenz:**
+- https://dachdecker.org/dachdeckerhandwerk-gegen-verschaerfte-aufzeichnungspflichten-9412449/
+- https://www.handwerk.com/buerokratie-was-handwerkern-besonders-zu-schaffen-macht
+- https://www.streit-software.de/wissen/aufmass-dachdecker
+
+**Gefunden:** 2026-07-20
+
+---
+
+## Architekturbüros — Bauüberwachungsprotokoll / Bautagebuch-Generator (HOAI LP8)
+
+**Schmerz:** HOAI LP8 verlangt tagesaktuelle Baubesprechungsprotokolle und Bautagebücher; Architekten beschreiben dies als „unbeliebteste Aufgabe auf der Baustelle" und schreiben sie typischerweise aus dem Gedächtnis am Feierabend in Excel.
+
+**Zielgruppe:** ~38.000 Architekturbüros in Deutschland; 40–60 % erbringen LP8-Leistungen.
+
+**Caveat:** Aktive KI-Wettbewerber bereits vorhanden: baukraft.co, Phase0/Compa (WhatsApp → KI → Bautagebuch), easyarchitekt.de, Weise Software Bautagebuch 2025. Fenster für Neueintritt engt sich.
+
+**Evidenz:**
+- https://gripsware.de/blogpost/bauueberwachung-baudokumentation/
+- https://planer-am-bau.de/artikel/dokumentation-des-bauablaufs-grundlagen-einer-rechtskonformen-objektueberwachung-bauleitung-in-der-praxis-6
+- https://www.capterra.com.de/reviews/199412/capmo
+
+**Gefunden:** 2026-07-20
