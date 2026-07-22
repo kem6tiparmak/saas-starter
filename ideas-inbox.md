@@ -221,6 +221,51 @@ gefunden; Word-Muster und Online-Suche nach Mustersätzen zeigen hohe Nachfrage.
 
 ---
 
+## GaLaBau — VOB-Abnahmeprotokoll & Leistungsdokumentation-Generator
+
+**Schmerz:** Garten- und Landschaftsbau-Betriebe müssen bei VOB-Abnahmen VOB-konforme Fließtext-Protokolle mit exakter Mängelbeschreibung, Soll-Ist-Abweichung und Fristvorgabe erstellen — vage Word-Notizen sind vor Gericht wertlos, wie Fachanwalt Schilling als systematisches Problem dokumentiert. Alle verbreiteten Tools (plancraft, DATAflor, smarthandwerk) lösen nur Formular und Kalkulation, kein KI-Narrativ-Layer.
+
+**Zielgruppe:** ~19.898 GaLaBau-Betriebe in Deutschland (BGL-Statistik 2025); zahlungsrelevantes Segment ~12.000–15.000 Betriebe mit VOB-Projekten.
+
+**Evidenz:**
+- https://neuelandschaft.de/artikel/galabau-und-recht-fachanwalt-rainer-schilling-empfiehlt-immer-wieder-probleme-mit-der-abnahme-6079
+- https://hero-software.de/blog/news/galabau-branchenstatistik-2025
+- https://bautagebuch.org/blog/abnahmeprotokoll-nach-vob
+
+**Gefunden:** 2026-07-22
+
+---
+
+## Arbeitssicherheitsfachkräfte (SiFa) extern — Gefährdungsbeurteilung-Narrativ-Generator (Multi-Client)
+
+**Schmerz:** Externe SiFas schreiben für 20–80 Klientenbetriebe je 3–15 Gefährdungsbeurteilungen mit individuell formulierten Maßnahmentexten im Fließtext — sie machen laut SIFABOARD „inhaltlich Abstriche aus Zeitgründen." Kostenlose BG-Tools haben keinen Multi-Client-Workflow, Enterprise-Tools (Quentic, Secova) kosten ab €500/Monat. Marktlücke: Subscription <€150/Monat mit KI-Narrativ + Multi-Client-Dashboard.
+
+**Zielgruppe:** ~5.000–10.000 externe SiFa-Berater und Arbeitssicherheits-Kleinbüros in Deutschland. Zeitfenster-Risiko: VBG GEDOKU bekommt H2/2025 KI-Features.
+
+**Evidenz:**
+- https://sifaboard.de/thread/15060-suche-nach-software/
+- https://meinegbu.com/gefaehrdungsbeurteilung-software/
+- https://www.glaskeramik.org/gefaehrdungsbeurteilung-gedoku-mit-ki-unterstuetzung/
+
+**Gefunden:** 2026-07-22
+
+---
+
+## Sanitätshaus / Orthopädietechnik — GKV-Hilfsmittelversorgungs-Dokumentation-Assistent
+
+**Schmerz:** 73 % der Sanitätshäuser verbringen über 30 % ihrer Betriebszeit mit Bürokratie (Branchenverband); narrative GKV-Versorgungsnachweise, Anpassungsberichte und Mehrkostenerklärungen werden vollständig manuell erstellt. Branchensoftware (Optica Omnia, opta data) deckt nur Abrechnung/Billing ab — kein KI-Narrativ-Tool für Versorgungsberichte identifiziert.
+
+**Zielgruppe:** ~5.500 Sanitätshäuser + ~1.800 Orthopädietechnik-Betriebe in Deutschland. Caveat: kleine Marktgröße; Integration in bestehende Branchensoftware vertrieblich wichtig.
+
+**Evidenz:**
+- https://www.verbandsbuero.de/hilfsmittelversorgung-buerokratieabbau-statt-mehrkosten-und-kritik-am-gkv-spitzenverband/
+- https://www.otpilot.de/wissen/lexikon
+- https://gesundheitsprofi.de/optica-omnia-die-branchensoftware-mit-integrierten-stammdaten/
+
+**Gefunden:** 2026-07-22
+
+---
+
 ## Architekturbüros — Bauüberwachungsprotokoll / Bautagebuch-Generator (HOAI LP8)
 
 **Schmerz:** HOAI LP8 verlangt tagesaktuelle Baubesprechungsprotokolle und Bautagebücher; Architekten beschreiben dies als „unbeliebteste Aufgabe auf der Baustelle" und schreiben sie typischerweise aus dem Gedächtnis am Feierabend in Excel.
